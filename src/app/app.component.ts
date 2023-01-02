@@ -7,12 +7,4 @@ import { Component, VERSION } from '@angular/core';
 })
 export class AppComponent {
   userName = '';
-
-  resetUserName(){
-    this.userName = ''
-  }
-
-  disbleButton(){
-    return  this.userName === ''
-  }
 }
